@@ -1,1 +1,46 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+ul.game-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.game-list li {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.game-list li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
